@@ -11,9 +11,25 @@ struct AppetizerListView: View {
     var body: some View {
         NavigationView {
             List(MockData.appetizers) { appetizer in
-                Text(appetizer.name)
+                HStack(spacing: 20) {
+                    Image(appetizer.imageURL)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(10)
+                        .frame(width: 100, height: 100)
+                    
+                    VStack(alignment: .leading, spacing: 5) {
+                        Text(appetizer.name)
+                            .font(.headline)
+                        
+                        Text(String(format: "$%.2f", appetizer.price))
+                            .font(.subheadline)
+                            .bold()
+                            .foregroundColor(.gray)
+                    }
+                }
             }
-                .navigationTitle("🍤 Appetizers")
+            .navigationTitle("🍤 Appetizers")
         }
     }
 }

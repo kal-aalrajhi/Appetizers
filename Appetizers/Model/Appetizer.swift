@@ -30,7 +30,7 @@ struct MockData {
                                            name: "Skrimp Sando",
                                            description: "Yumm skrimpo for my rumbly tummo!",
                                            price: 4.99,
-                                           imageURL: "",
+                                           imageURL: "blackened-shrimp",
                                            calories: 580,
                                            protein: 22,
                                            carbs: 800
