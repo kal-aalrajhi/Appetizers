@@ -15,17 +15,17 @@ struct AppetizerListView: View {
                     Image(appetizer.imageURL)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .cornerRadius(10)
-                        .frame(width: 100, height: 100)
+                        .frame(width: 120, height: 90)
+                        .cornerRadius(6)
                     
                     VStack(alignment: .leading, spacing: 5) {
                         Text(appetizer.name)
-                            .font(.headline)
+                            .font(.title2)
                         
-                        Text(String(format: "$%.2f", appetizer.price))
-                            .font(.subheadline)
+                        Text("$\(appetizer.price, specifier: "%.2f")")
+                            .font(.title3)
                             .bold()
-                            .foregroundColor(.gray)
+                            .foregroundColor(.secondary)
                     }
                 }
             }
