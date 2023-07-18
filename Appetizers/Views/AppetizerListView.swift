@@ -30,6 +30,7 @@ struct AppetizerListView: View {
                 }
             }
             .navigationTitle("🍤 Appetizers")
+            .listStyle(.plain)
         }
     }
 }
