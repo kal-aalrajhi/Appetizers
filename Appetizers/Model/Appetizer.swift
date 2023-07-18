@@ -6,3 +6,14 @@
 //
 
 import Foundation
+/// We only need Decodable because we're parsing JSON, not encoding it.
+struct Appetizer: Decodable {
+    let id: Int
+    let name: String
+    let description: String
+    let price: Double
+    let imageURL: String
+    let calories: Int
+    let protein: Int
+    let carbs: Int
+}
