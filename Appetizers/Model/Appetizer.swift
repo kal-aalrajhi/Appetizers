@@ -7,7 +7,9 @@
 
 import Foundation
 /// We only need Decodable because we're parsing JSON, not encoding it.
-struct Appetizer: Decodable {
+struct Appetizer: Decodable, Identifiable {
+    var uuid = UUID()
+    
     let id: Int
     let name: String
     let description: String
