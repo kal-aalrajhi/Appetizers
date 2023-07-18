@@ -23,4 +23,16 @@ struct AppetizerResponse {
     let request: [Appetizer]
 }
 
-
+struct MockData {
+    static let sampleAppetizer = Appetizer(id: 19,
+                                           name: "Skrimp Sando",
+                                           description: "Yumm skrimpo for my rumbly tummo!",
+                                           price: 4.99,
+                                           imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/blackened-shrimp.jpg",
+                                           calories: 580,
+                                           protein: 22,
+                                           carbs: 800
+    )
+    
+    static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer]
+}
