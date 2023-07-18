@@ -17,3 +17,10 @@ struct Appetizer: Decodable {
     let protein: Int
     let carbs: Int
 }
+
+/// Mirrors the response of the given JSON
+struct AppetizerResponse {
+    let request: [Appetizer]
+}
+
+
