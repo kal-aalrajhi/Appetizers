@@ -15,6 +15,7 @@
 		B72510E62A66E622003251EA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72510E52A66E622003251EA /* AccountView.swift */; };
 		B72510E82A66E62C003251EA /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72510E72A66E62C003251EA /* OrderView.swift */; };
 		B72510EA2A66F237003251EA /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72510E92A66F237003251EA /* Appetizer.swift */; };
+		B72510EE2A670DA5003251EA /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72510ED2A670DA5003251EA /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B72510E52A66E622003251EA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		B72510E72A66E62C003251EA /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		B72510E92A66F237003251EA /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		B72510ED2A670DA5003251EA /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				B72510D52A66E4C0003251EA /* AppetizersApp.swift */,
+				B72510ED2A670DA5003251EA /* AppetizerListCell.swift */,
 				B72510EC2A66F26C003251EA /* Views */,
 				B72510EB2A66F24D003251EA /* Model */,
 				B72510D92A66E4C2003251EA /* Assets.xcassets */,
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B72510EA2A66F237003251EA /* Appetizer.swift in Sources */,
+				B72510EE2A670DA5003251EA /* AppetizerListCell.swift in Sources */,
 				B72510E62A66E622003251EA /* AccountView.swift in Sources */,
 				B72510D82A66E4C0003251EA /* AppetizerTabView.swift in Sources */,
 				B72510D62A66E4C0003251EA /* AppetizersApp.swift in Sources */,
